@@ -16,7 +16,7 @@ if (!$docsDir || !is_dir($docsDir)) {
 
 $Parsedown = new Parsedown();
 if (method_exists($Parsedown, 'setSafeMode')) {
-    $Parsedown->setSafeMode(true);
+    $Parsedown->setSafeMode(false);
 }
 
 function e(string $value): string {

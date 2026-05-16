@@ -56,3 +56,15 @@ If `logo_path` is empty, the app shows the configured text badge instead.
 ## Code Block Copy Buttons
 
 All Markdown code blocks automatically receive a copy button in the browser. No extra Markdown syntax is required.
+
+## Parsedown Safe Mode
+
+If enabled, it blocks HTML in markdown files.
+By default, this is disabled. To enable it, find this line in `index.php`:
+```php
+$Parsedown->setSafeMode(false);
+```
+And change it to:
+```php
+$Parsedown->setSafeMode(true);
+```

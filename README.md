@@ -1,6 +1,6 @@
 # Simple PHP Documentation App
 
-A lightweight documentation application using Parsedown.
+A lightweight documentation application using [Parsedown](https://github.com/erusev/parsedown).
 
 ## Structure
 
@@ -25,7 +25,7 @@ docs/
 
 ## Installation
 
-1. Upload this folder to your PHP server.
+1. Upload this repository to your PHP server.
 2. Edit `config.php`.
 3. Add your `.md` files to the `docs` folder.
 4. Open `index.php` in your browser.
